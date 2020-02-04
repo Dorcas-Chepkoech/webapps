@@ -20,15 +20,15 @@ function Navbar () {
             </a>
           </li>          
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
-              Products
+            <a className="nav-link" href="/shop">
+              Shop
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/add-product">
               Sell Stuff
             </a>
-          </li> 
+          </li>  */}
           <li className="nav-item">
             <a className="nav-link" href="/contact">
               Contact Us

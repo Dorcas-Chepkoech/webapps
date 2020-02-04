@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './contact.css'
 import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 
 export default function Contact () {
   const [input, setInput] = useState({})
@@ -15,6 +16,7 @@ export default function Contact () {
   console.log(input)
   return (
     <div>
+      <Navbar/>
       <section className='contact pt-100 pb-100' id='contact'>
         <div className='container'>
           <div className='row'>
