@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import Footer from '../Footer/Footer';
 
 function Home() {
     return (
@@ -17,8 +18,9 @@ function Home() {
             <a href className="ban-btn btn-green">Sign-Up Today!</a>
             
           </div>
-        </div>
+        </div><Footer/>
       </div>
+      
     )
 }
 export default Home;
