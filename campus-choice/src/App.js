@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
 import Login from './components/Login/Login';
 import Home from './components/Home/Home';
+import Contact from './components/Contact/ContactUs.jsx';
+
 
 function App() {
 	return (
@@ -12,8 +14,9 @@ function App() {
 			<Navbar/>
 			<Router>
 				<Switch>
+				{/* <Route path="/" component={Home}/> */}
 					<Route path="/login" component={Login} />
-					<Route path="/" component={Home}/>
+					<Route path='/contact' component={Contact}/>
 				</Switch>
 			</Router>
 		</div>

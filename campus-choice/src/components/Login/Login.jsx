@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './login.css'
+import Contact from '../Contact/ContactUs'
 
 function Login (props) {
   const [login, setLogin] = useState({})

@@ -32,7 +32,7 @@ export default function Footer () {
                 <a href>
                   <span>
                     <i 
-                    class='fa fa-facebook' 
+                    className='fa fa-facebook' 
                     aria-hidden='true'
                     style={{ color: 'white' }}
                     />
@@ -43,7 +43,7 @@ export default function Footer () {
                 <a href>
                   <span>
                     <i 
-                    class='fa fa-pinterest-p' 
+                    className='fa fa-pinterest-p' 
                     aria-hidden='true'
                     style={{ color: 'white' }}
                     />
@@ -54,7 +54,7 @@ export default function Footer () {
                 <a href>
                   <span>
                     <i 
-                    class='fa fa-twitter' 
+                    className='fa fa-twitter' 
                     aria-hidden='true'
                     style={{ color: 'white' }}
                     />
@@ -65,7 +65,7 @@ export default function Footer () {
                 <a href>
                   <span>
                     <i 
-                    class='fa fa-whatsapp' 
+                    className='fa fa-whatsapp' 
                     aria-hidden='true'
                     style={{ color: 'white' }}
                     />
@@ -76,7 +76,7 @@ export default function Footer () {
                 <a href>
                   <span>
                     <i 
-                    class='fa fa-tumblr' 
+                    className='fa fa-tumblr' 
                     aria-hidden='true'
                     style={{ color: 'white' }}
                     />

@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import {Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
+import React, {useState} from 'react';;
 import './navbar.css';
 
 function Navbar () {
@@ -21,7 +20,7 @@ function Navbar () {
             </a>
           </li>          
           <li className="nav-item">
-            <a className="nav-link" href="/home">
+            <a className="nav-link" href="/contact">
               Products
             </a>
           </li>
@@ -29,9 +28,9 @@ function Navbar () {
             <a className="nav-link" href="/add-product">
               Sell Stuff
             </a>
-          </li>
+          </li> 
           <li className="nav-item">
-            <a className="nav-link" href="/Contact">
+            <a className="nav-link" href="/contact">
               Contact Us
             </a>
           </li>
