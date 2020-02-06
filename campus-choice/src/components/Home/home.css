@@ -40,7 +40,7 @@ p {
     font-size: 50px;
     font-style: italic;
 }
-
+/* 
 .img-content img {
     width: 100%;
     height: 100vh;
@@ -56,7 +56,7 @@ p {
     opacity: .8;
     z-index: 999;
     height: 100%;
-}
+} */
 
 .ban-btn {
     border: none;

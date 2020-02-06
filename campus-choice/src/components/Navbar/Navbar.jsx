@@ -1,7 +1,7 @@
 import React, {useState} from 'react';;
 import './navbar.css';
 
-function Navbar () {
+function Navigation () {
   const [dropdownOpen, setDropdownOpen] = useState (false);
 
   const toggle = () => setDropdownOpen (prevState => !prevState);
@@ -46,4 +46,4 @@ function Navbar () {
   );
 }
 
-export default Navbar;
+export default Navigation;
