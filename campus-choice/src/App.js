@@ -10,6 +10,7 @@ import SignIn from './components/SignIn/SignUp';
 import MainPage from './components/Main/MainPage';
 
 
+
 function App() {
 	return (
 		<div className="App">
@@ -21,6 +22,7 @@ function App() {
 					<Route path="/login" component={Login} />
 					<Route path="/signin" component={SignIn}/>
 					<Route path='/contact' component={Contact}/>
+					
 				</Switch>
 			</Router>
 		</div>

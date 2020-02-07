@@ -12,7 +12,8 @@ export default function CarouselOne() {
                 <form className="form" method action>
                   <div className="card-header text-center">
                     <div className="logo-container">
-                      <img src="https://raw.githack.com/creativetimofficial/now-ui-kit/master/assets/img/now-logo.png" alt="" />
+                      <img src="../../assets/images/1.png" alt="" />
+                      <i class="fa fa-money" aria-hidden="true"></i><i class="fa fa-money" aria-hidden="true"></i><i class="fa fa-money" aria-hidden="true"></i>
                     </div>
                   </div>
                   

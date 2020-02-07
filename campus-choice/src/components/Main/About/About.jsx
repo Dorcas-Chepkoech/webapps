@@ -25,7 +25,7 @@ function About() {
                 <div className="blog-img">
                   <img src="https://i.pinimg.com/564x/9a/59/6d/9a596dd880532e91bb40ffa0fa895e21.jpg" alt="" style={{height:"275px"}} />
                   <div className="post-category">
-                    <a href="#">Clothes</a>
+                    <a href="clothes">Clothes</a>
                   </div>
                 </div>
                 <div className="blog-content">
