@@ -9,6 +9,7 @@ import Contact from './components/Contact/ContactUs.jsx';
 import SignIn from './components/SignIn/SignUp';
 import MainPage from './components/Main/MainPage';
 import ModalExample from './components/Login/Modal';
+import Clothes from './components/Products/Clothes';
 
 
 
@@ -24,6 +25,7 @@ function App() {
 					<Route path="/signin" component={SignIn}/>
 					<Route path='/contact' component={Contact}/>
 					<Route path='/modal' component={ModalExample}/>
+					<Route path='/clothes' component={Clothes}/>
 					
 				</Switch>
 			</Router>

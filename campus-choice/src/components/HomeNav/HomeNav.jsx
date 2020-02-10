@@ -14,12 +14,12 @@ export default function HomeNav() {
             <div className="logo">
               
             </div>
-            <div className="menu"><div>
+            <div className="menu">
               <ul>
               <Button color="primary" >Login</Button>{' '}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <Button color="success" >Register</Button>{' '}
                 
-              </ul></div>
+              </ul></div><div>
             </div>
           </nav>
           
