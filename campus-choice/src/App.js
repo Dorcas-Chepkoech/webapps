@@ -10,6 +10,7 @@ import SignIn from './components/SignIn/SignUp';
 import MainPage from './components/Main/MainPage';
 import ModalExample from './components/Login/Modal';
 import Clothes from './components/Products/Clothes';
+import Checkout from './components/Checkout/Checkout';
 
 
 
@@ -26,6 +27,7 @@ function App() {
 					<Route path='/contact' component={Contact}/>
 					<Route path='/modal' component={ModalExample}/>
 					<Route path='/clothes' component={Clothes}/>
+					<Route path='/checkout' component={Checkout}/>
 					
 				</Switch>
 			</Router>

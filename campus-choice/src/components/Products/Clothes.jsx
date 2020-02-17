@@ -2,6 +2,7 @@ import React from 'react';
 import './products.css';
 import Navigation from '../Navbar/Navbar';
 import Search from '../Search/Search';
+import Footer from '../Footer/Footer';
 
 
 function Clothes() {
@@ -80,6 +81,7 @@ function Clothes() {
       </div>
             
         </div>
+        <Footer/>
         </div>
     )
 }
