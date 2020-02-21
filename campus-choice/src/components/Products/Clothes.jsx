@@ -1,11 +1,20 @@
 import React from 'react';
 import './products.css';
+import './Products.js';
 import Navigation from '../Navbar/Navbar';
 import Search from '../Search/Search';
 import Footer from '../Footer/Footer';
+import { useState } from 'react';
 
 
 function Clothes() {
+  const [data, setData] =  useState({});
+  
+  const handleData = () => {
+
+  }
+
+
     return (
         <div>
             <Navigation/>
