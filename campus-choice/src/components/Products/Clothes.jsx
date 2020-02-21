@@ -1,97 +1,61 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './products.css';
-import './Products.js';
+import ProductData from './Products.json';
 import Navigation from '../Navbar/Navbar';
 import Search from '../Search/Search';
 import Footer from '../Footer/Footer';
-import { useState } from 'react';
+
+
 
 
 function Clothes() {
-  const [data, setData] =  useState({});
-  
-  const handleData = () => {
 
-  }
+
 
 
     return (
-        <div>
-            <Navigation/>
-            <Search/>
-            <div className="container">
-        <br />
-        <h4>buy, buy, buy</h4>
-        <br />
-     
-            <div className="row" id="ads">
-                
-        {/* Category Card */}
-        <div className="col-md-4">
-          <div className="card rounded">
-            <div className="card-image">
-              <span className="card-notify-badge">Low KMS</span>
-              <span className="card-notify-year">2018</span>
-              <img className="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=USC80HOC011A021001.jpg&width=440&height=262" alt="Alternate Text" />
-            </div>
-            <div className="card-image-overlay m-auto">
-              <span className="card-detail-badge">Used</span>
-              <span className="card-detail-badge">$28,000.00</span>
-              <span className="card-detail-badge">13000 Kms</span>
-            </div>
-            <div className="card-body text-center">
-              <div className="ad-title m-auto">
-                <h5>Honda Accord LX</h5>
+     <div>
+       <Navigation/>
+       <Search/>
+       <div className="container">
+          <h3 className="h3">shopping Demo-6 </h3>
+          <hr/>
+          <div className="row">
+            <hr/>
+          {ProductData.map((productDetail, index) => {
+            return(
+             
+              <div className="col-md-3 col-sm-6">
+                <div className="product-grid6">
+                  <div className="product-image6">
+                  <h2 className="title"><a href="#">{productDetail.name}</a></h2>
+                    <a href="#">
+                      <img className="pic-1" src={productDetail.imgUrl} />
+                    </a>
+                  </div>
+                  <div className="product-content">
+            <h3 className="title"><a href="#">{productDetail.description}</a></h3>
+                    <div className="price">Ksh. {productDetail.price}
+                     
+                    </div>
+                  </div>
+                  <ul className="social">
+                    <li><a href data-tip="Quick View"><i className="fa fa-search" /></a></li>
+                    <li><a href data-tip="Add to Wishlist"><i className="fa fa-shopping-bag" /></a></li>
+                    <li><a href data-tip="Add to Cart" href="checkout"><i className="fa fa-shopping-cart" /></a></li>
+                  </ul>
+                </div>
               </div>
-              <a className="ad-btn" href="#">View</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card rounded">
-            <div className="card-image">
-              <span className="card-notify-badge">Fully-Loaded</span>
-              <span className="card-notify-year">2017</span>
-              <img className="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=CAC80HOC021B121001.jpg&width=440&height=262" alt="Alternate Text" />
-            </div>
-            <div className="card-image-overlay m-auto">
-              <span className="card-detail-badge">Used</span>
-              <span className="card-detail-badge">$28,000.00</span>
-              <span className="card-detail-badge">13000 Kms</span>
-            </div>
-            <div className="card-body text-center">
-              <div className="ad-title m-auto">
-                <h5>Honda CIVIC HATCHBACK LS</h5>
-              </div>
-              <a className="ad-btn" href="#">View</a>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="card rounded">
-            <div className="card-image">
-              <span className="card-notify-badge">Price Reduced</span>
-              <span className="card-notify-year">2018</span>
-              <img className="img-fluid" src="https://imageonthefly.autodatadirect.com/images/?USER=eDealer&PW=edealer872&IMG=USC80HOC091A021001.jpg&width=440&height=262" alt="Alternate Text" />
-            </div>
-            <div className="card-image-overlay m-auto">
-              <span className="card-detail-badge">Used</span>
-              <span className="card-detail-badge">$22,000.00</span>
-              <span className="card-detail-badge">8000 Kms</span>
-            </div>
-            <div className="card-body text-center">
-              <div className="ad-title m-auto">
-                <h5>Honda Accord Hybrid LT</h5>
-              </div>
-              <a className="ad-btn" href="#">View</a>
-            </div>
-          </div>
-        </div>
+         
+          
+
+            )
+          })}
       </div>
-            
         </div>
         <Footer/>
-        </div>
+        
+     </div>
     )
 }
 

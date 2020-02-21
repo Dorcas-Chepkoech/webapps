@@ -22,6 +22,7 @@ export default function Home() {
                     <input type="checkbox" className="form-check-input" />
                     <small>Remember Me</small>
                   </label>
+                  
                   <button type="submit" className="btn btn-login float-right">Submit</button>
                 </div>
               </form>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Checkout.css';
+import {productDetail} from '../Products/Clothes.jsx';
 import Navigation from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
@@ -18,7 +19,7 @@ export default function Checkout() {
           <br/>
          <br/>
           <div className="col-1-2 product-info">
-            <h1>Field Notes Cherry Graph 3-Pack</h1>
+    <h1>{productDetail.name}</h1>
             <br/>
             <h2>$7.50</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt qui dolorum architecto veniam aut, animi laborum unde assumenda, quas illo nesciunt, autem eius? Dignissimos iusto eos eveniet perspiciatis in dolorem!</p>
