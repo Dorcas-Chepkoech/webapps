@@ -18,8 +18,10 @@ function Clothes() {
        <Navigation/>
        <Search/>
        <div className="container">
-          <h3 className="h3">shopping Demo-6 </h3>
+          <h3 className="h3"> </h3>
           <hr/>
+          <br/>
+          <br/>
           <div className="row">
             <hr/>
           {ProductData.map((productDetail, index) => {
