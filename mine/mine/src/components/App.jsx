@@ -6,7 +6,7 @@ import Header from './common/Header';
 import CoursesHooks from './CoursesHooks';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import NotFoundPage from './NotFoundPage';
-import { ManageCoursePage } from './ManageCoursePage';
+import ManageCoursePage  from './ManageCoursePage';
 
 
 
@@ -19,6 +19,7 @@ function App(){
     <Route path="/courses" component={CoursesHooks}/>
     <Route path="/about" component={AboutPage}/>
     <Route path="/course/:slug" component={ManageCoursePage}/> 
+    <Route path="/course/" component={ManageCoursePage}/>
     <Redirect from="/about-page" to="about"/>
     <Route component={NotFoundPage}/>
     </Switch>
